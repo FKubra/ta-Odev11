@@ -5,6 +5,7 @@ public class Main {
         Singleton singletonInstance = Singleton.getInstance();
         singletonInstance.getMessage();
 
+        //Builder Kullanımı
         Kitap kitap = Kitap.KitapBuilder.aKitap()
                 .withId(43)
                 .withSayfaSayisi(712)
